@@ -1,0 +1,17 @@
+appId: com.example.electron-react-pouchdb-app
+productName: ElectronReactPouchDBApp
+directories:
+  output: build
+files:
+  - "build/"
+  - "node_modules/"
+  - "public/"
+  - "src/"
+  - "package.json"
+  - "electron-builder.yml"
+  - "webpack.config.js"
+  - "main.js"
+asar: true
+win:
+  target: portable
+  icon: public/icon.ico
